@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA4AACF1D02BD0B00B41ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4AACE1D02BD0B00B41ED1 /* AppDelegate.swift */; };
+		3BA4AAD11D02BD0B00B41ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4AAD01D02BD0B00B41ED1 /* ViewController.swift */; };
+		3BA4AAD41D02BD0B00B41ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA4AAD21D02BD0B00B41ED1 /* Main.storyboard */; };
+		3BA4AAD61D02BD0B00B41ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA4AAD51D02BD0B00B41ED1 /* Assets.xcassets */; };
+		3BA4AAD91D02BD0B00B41ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA4AAD71D02BD0B00B41ED1 /* LaunchScreen.storyboard */; };
+		3BA4AAE41D02BD0B00B41ED1 /* SLGoogleMenuDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4AAE31D02BD0B00B41ED1 /* SLGoogleMenuDemoTests.swift */; };
+		3BA4AAEF1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4AAEE1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests.swift */; };
+		3BA4AAFE1D02CA3B00B41ED1 /* SLGoogleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4AAFD1D02CA3B00B41ED1 /* SLGoogleItemView.swift */; };
+		3BA4AB001D02D0EE00B41ED1 /* SLGoogleMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4AAFF1D02D0EE00B41ED1 /* SLGoogleMenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA4AAE01D02BD0B00B41ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA4AAC31D02BD0B00B41ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA4AACA1D02BD0B00B41ED1;
+			remoteInfo = SLGoogleMenuDemo;
+		};
+		3BA4AAEB1D02BD0B00B41ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA4AAC31D02BD0B00B41ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA4AACA1D02BD0B00B41ED1;
+			remoteInfo = SLGoogleMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BA4AACB1D02BD0B00B41ED1 /* SLGoogleMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLGoogleMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA4AACE1D02BD0B00B41ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BA4AAD01D02BD0B00B41ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BA4AAD31D02BD0B00B41ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BA4AAD51D02BD0B00B41ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA4AAD81D02BD0B00B41ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BA4AADA1D02BD0B00B41ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA4AADF1D02BD0B00B41ED1 /* SLGoogleMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLGoogleMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA4AAE31D02BD0B00B41ED1 /* SLGoogleMenuDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleMenuDemoTests.swift; sourceTree = "<group>"; };
+		3BA4AAE51D02BD0B00B41ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA4AAEA1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLGoogleMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA4AAEE1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleMenuDemoUITests.swift; sourceTree = "<group>"; };
+		3BA4AAF01D02BD0B00B41ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA4AAFD1D02CA3B00B41ED1 /* SLGoogleItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLGoogleItemView.swift; sourceTree = "<group>"; };
+		3BA4AAFF1D02D0EE00B41ED1 /* SLGoogleMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLGoogleMenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA4AAC81D02BD0B00B41ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA4AADC1D02BD0B00B41ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA4AAE71D02BD0B00B41ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA4AAC21D02BD0B00B41ED1 = {
+			isa = PBXGroup;
+			children = (
+				3BA4AACD1D02BD0B00B41ED1 /* SLGoogleMenuDemo */,
+				3BA4AAE21D02BD0B00B41ED1 /* SLGoogleMenuDemoTests */,
+				3BA4AAED1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests */,
+				3BA4AACC1D02BD0B00B41ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA4AACC1D02BD0B00B41ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4AACB1D02BD0B00B41ED1 /* SLGoogleMenuDemo.app */,
+				3BA4AADF1D02BD0B00B41ED1 /* SLGoogleMenuDemoTests.xctest */,
+				3BA4AAEA1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA4AACD1D02BD0B00B41ED1 /* SLGoogleMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4AAFC1D02CA2300B41ED1 /* SLGoogleMenuDemo */,
+				3BA4AACE1D02BD0B00B41ED1 /* AppDelegate.swift */,
+				3BA4AAD01D02BD0B00B41ED1 /* ViewController.swift */,
+				3BA4AAD21D02BD0B00B41ED1 /* Main.storyboard */,
+				3BA4AAD51D02BD0B00B41ED1 /* Assets.xcassets */,
+				3BA4AAD71D02BD0B00B41ED1 /* LaunchScreen.storyboard */,
+				3BA4AADA1D02BD0B00B41ED1 /* Info.plist */,
+			);
+			path = SLGoogleMenuDemo;
+			sourceTree = "<group>";
+		};
+		3BA4AAE21D02BD0B00B41ED1 /* SLGoogleMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4AAE31D02BD0B00B41ED1 /* SLGoogleMenuDemoTests.swift */,
+				3BA4AAE51D02BD0B00B41ED1 /* Info.plist */,
+			);
+			path = SLGoogleMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		3BA4AAED1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4AAEE1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests.swift */,
+				3BA4AAF01D02BD0B00B41ED1 /* Info.plist */,
+			);
+			path = SLGoogleMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+		3BA4AAFC1D02CA2300B41ED1 /* SLGoogleMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4AAFD1D02CA3B00B41ED1 /* SLGoogleItemView.swift */,
+				3BA4AAFF1D02D0EE00B41ED1 /* SLGoogleMenuView.swift */,
+			);
+			name = SLGoogleMenuDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA4AACA1D02BD0B00B41ED1 /* SLGoogleMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA4AAF31D02BD0B00B41ED1 /* Build configuration list for PBXNativeTarget "SLGoogleMenuDemo" */;
+			buildPhases = (
+				3BA4AAC71D02BD0B00B41ED1 /* Sources */,
+				3BA4AAC81D02BD0B00B41ED1 /* Frameworks */,
+				3BA4AAC91D02BD0B00B41ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLGoogleMenuDemo;
+			productName = SLGoogleMenuDemo;
+			productReference = 3BA4AACB1D02BD0B00B41ED1 /* SLGoogleMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA4AADE1D02BD0B00B41ED1 /* SLGoogleMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA4AAF61D02BD0B00B41ED1 /* Build configuration list for PBXNativeTarget "SLGoogleMenuDemoTests" */;
+			buildPhases = (
+				3BA4AADB1D02BD0B00B41ED1 /* Sources */,
+				3BA4AADC1D02BD0B00B41ED1 /* Frameworks */,
+				3BA4AADD1D02BD0B00B41ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA4AAE11D02BD0B00B41ED1 /* PBXTargetDependency */,
+			);
+			name = SLGoogleMenuDemoTests;
+			productName = SLGoogleMenuDemoTests;
+			productReference = 3BA4AADF1D02BD0B00B41ED1 /* SLGoogleMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BA4AAE91D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA4AAF91D02BD0B00B41ED1 /* Build configuration list for PBXNativeTarget "SLGoogleMenuDemoUITests" */;
+			buildPhases = (
+				3BA4AAE61D02BD0B00B41ED1 /* Sources */,
+				3BA4AAE71D02BD0B00B41ED1 /* Frameworks */,
+				3BA4AAE81D02BD0B00B41ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA4AAEC1D02BD0B00B41ED1 /* PBXTargetDependency */,
+			);
+			name = SLGoogleMenuDemoUITests;
+			productName = SLGoogleMenuDemoUITests;
+			productReference = 3BA4AAEA1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA4AAC31D02BD0B00B41ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = RobuSoft;
+				TargetAttributes = {
+					3BA4AACA1D02BD0B00B41ED1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3BA4AADE1D02BD0B00B41ED1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3BA4AACA1D02BD0B00B41ED1;
+					};
+					3BA4AAE91D02BD0B00B41ED1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3BA4AACA1D02BD0B00B41ED1;
+					};
+				};
+			};
+			buildConfigurationList = 3BA4AAC61D02BD0B00B41ED1 /* Build configuration list for PBXProject "SLGoogleMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA4AAC21D02BD0B00B41ED1;
+			productRefGroup = 3BA4AACC1D02BD0B00B41ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA4AACA1D02BD0B00B41ED1 /* SLGoogleMenuDemo */,
+				3BA4AADE1D02BD0B00B41ED1 /* SLGoogleMenuDemoTests */,
+				3BA4AAE91D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA4AAC91D02BD0B00B41ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA4AAD91D02BD0B00B41ED1 /* LaunchScreen.storyboard in Resources */,
+				3BA4AAD61D02BD0B00B41ED1 /* Assets.xcassets in Resources */,
+				3BA4AAD41D02BD0B00B41ED1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA4AADD1D02BD0B00B41ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA4AAE81D02BD0B00B41ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA4AAC71D02BD0B00B41ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA4AAFE1D02CA3B00B41ED1 /* SLGoogleItemView.swift in Sources */,
+				3BA4AB001D02D0EE00B41ED1 /* SLGoogleMenuView.swift in Sources */,
+				3BA4AAD11D02BD0B00B41ED1 /* ViewController.swift in Sources */,
+				3BA4AACF1D02BD0B00B41ED1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA4AADB1D02BD0B00B41ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA4AAE41D02BD0B00B41ED1 /* SLGoogleMenuDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA4AAE61D02BD0B00B41ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA4AAEF1D02BD0B00B41ED1 /* SLGoogleMenuDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA4AAE11D02BD0B00B41ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA4AACA1D02BD0B00B41ED1 /* SLGoogleMenuDemo */;
+			targetProxy = 3BA4AAE01D02BD0B00B41ED1 /* PBXContainerItemProxy */;
+		};
+		3BA4AAEC1D02BD0B00B41ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA4AACA1D02BD0B00B41ED1 /* SLGoogleMenuDemo */;
+			targetProxy = 3BA4AAEB1D02BD0B00B41ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BA4AAD21D02BD0B00B41ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA4AAD31D02BD0B00B41ED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA4AAD71D02BD0B00B41ED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA4AAD81D02BD0B00B41ED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BA4AAF11D02BD0B00B41ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BA4AAF21D02BD0B00B41ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA4AAF41D02BD0B00B41ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLGoogleMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.robusoft.SLGoogleMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BA4AAF51D02BD0B00B41ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLGoogleMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.robusoft.SLGoogleMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BA4AAF71D02BD0B00B41ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLGoogleMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.robusoft.SLGoogleMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLGoogleMenuDemo.app/SLGoogleMenuDemo";
+			};
+			name = Debug;
+		};
+		3BA4AAF81D02BD0B00B41ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLGoogleMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.robusoft.SLGoogleMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLGoogleMenuDemo.app/SLGoogleMenuDemo";
+			};
+			name = Release;
+		};
+		3BA4AAFA1D02BD0B00B41ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLGoogleMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.robusoft.SLGoogleMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLGoogleMenuDemo;
+			};
+			name = Debug;
+		};
+		3BA4AAFB1D02BD0B00B41ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLGoogleMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.robusoft.SLGoogleMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLGoogleMenuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA4AAC61D02BD0B00B41ED1 /* Build configuration list for PBXProject "SLGoogleMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA4AAF11D02BD0B00B41ED1 /* Debug */,
+				3BA4AAF21D02BD0B00B41ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA4AAF31D02BD0B00B41ED1 /* Build configuration list for PBXNativeTarget "SLGoogleMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA4AAF41D02BD0B00B41ED1 /* Debug */,
+				3BA4AAF51D02BD0B00B41ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BA4AAF61D02BD0B00B41ED1 /* Build configuration list for PBXNativeTarget "SLGoogleMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA4AAF71D02BD0B00B41ED1 /* Debug */,
+				3BA4AAF81D02BD0B00B41ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BA4AAF91D02BD0B00B41ED1 /* Build configuration list for PBXNativeTarget "SLGoogleMenuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA4AAFA1D02BD0B00B41ED1 /* Debug */,
+				3BA4AAFB1D02BD0B00B41ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA4AAC31D02BD0B00B41ED1 /* Project object */;
+}
