@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CView.h"
+#import "TopScrollView.h"
 
 typedef enum : NSUInteger {
     StatusNormal,
@@ -15,7 +16,8 @@ typedef enum : NSUInteger {
 } Status;
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
-@property (weak, nonatomic) IBOutlet UIView *topView;
+@property (strong, nonatomic) UIView *topView;
+@property (strong , nonatomic) TopScrollView *topScrollView;
 @property (strong, nonatomic)  NSArray *tableViews;
 @property (weak, nonatomic) IBOutlet CView *cView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topSpace;
@@ -32,6 +34,8 @@ typedef enum : NSUInteger {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.topView         = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200)];
+    [self.view addSubview:self.topView];
     self.cView.topView   = self.topView;
     
     CGRect srceenBound  = [UIScreen mainScreen].bounds;
@@ -54,6 +58,18 @@ typedef enum : NSUInteger {
     
     self.firstStatus  = StatusNormal;
     self.currentStatus = StatusTop;
+    
+    
+    self.topScrollView = [[TopScrollView alloc] initWithFrame:CGRectMake(0, 0, self.topView.bounds.size.width, self.topView.bounds.size.height)];
+    NSArray *arr       = @[[UIColor purpleColor],[UIColor yellowColor],[UIColor redColor],[UIColor greenColor]];
+    for (int i = 0 ; i < 4 ; i++) {
+        UIView *v = [[UIView alloc] initWithFrame:CGRectMake(i * self.topView.bounds.size.width, 0, self.topView.bounds.size.width, self.topView.bounds.size.height)];
+        [self.topScrollView addSubview:v];
+        v.backgroundColor = arr[i];
+    }
+    self.topScrollView.contentSize = CGSizeMake(4 * self.topScrollView.bounds.size.width, 0);
+    self.topScrollView.pagingEnabled = YES;
+    [self.topView addSubview:self.topScrollView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -90,8 +106,11 @@ typedef enum : NSUInteger {
     space                  = 136;
     CGFloat min            = MIN(offset, space);
     // 改变topView的约束
-    self.topSpace.constant = -min;
-    if (self.topSpace.constant == -space) {
+    CGRect frame = self.topView.frame;
+    frame.origin.y = -min;
+    self.topView.frame  = frame;
+    
+    if (self.topView.frame.origin.y == -space) {
         self.currentStatus = StatusTop;
     }else {
         self.currentStatus = StatusNormal;
@@ -105,7 +124,6 @@ typedef enum : NSUInteger {
             if (space >= offset) {
                 tempView.contentOffset = tableView.contentOffset;
                 [tempView setContentOffset:tableView.contentOffset animated:NO];
-                NSLog(@"%lu->%@",(unsigned long)[self.tableViews indexOfObject:tempView],NSStringFromCGPoint(tempView.contentOffset));
             }
         }
     }

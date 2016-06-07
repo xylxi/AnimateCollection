@@ -14,6 +14,7 @@
 		3B2DE3781D014AAD006DCD98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DE3731D014AAD006DCD98 /* AppDelegate.m */; };
 		3B2DE3791D014AAD006DCD98 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DE3751D014AAD006DCD98 /* CView.m */; };
 		3B2DE37A1D014AAD006DCD98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DE3771D014AAD006DCD98 /* ViewController.m */; };
+		3B90939D1D057D2E006549A2 /* TopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B90939C1D057D2E006549A2 /* TopScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3B2DE3751D014AAD006DCD98 /* CView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
 		3B2DE3761D014AAD006DCD98 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3B2DE3771D014AAD006DCD98 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B90939B1D057D2E006549A2 /* TopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopScrollView.h; sourceTree = "<group>"; };
+		3B90939C1D057D2E006549A2 /* TopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3B2DE3751D014AAD006DCD98 /* CView.m */,
 				3B2DE3761D014AAD006DCD98 /* ViewController.h */,
 				3B2DE3771D014AAD006DCD98 /* ViewController.m */,
+				3B90939B1D057D2E006549A2 /* TopScrollView.h */,
+				3B90939C1D057D2E006549A2 /* TopScrollView.m */,
 				3B2DE3701D014AA6006DCD98 /* Main.storyboard */,
 				3B2DE3621D014A19006DCD98 /* Assets.xcassets */,
 				3B2DE3641D014A19006DCD98 /* LaunchScreen.storyboard */,
@@ -157,6 +162,7 @@
 				3B2DE3791D014AAD006DCD98 /* CView.m in Sources */,
 				3B2DE3781D014AAD006DCD98 /* AppDelegate.m in Sources */,
 				3B2DE37A1D014AAD006DCD98 /* ViewController.m in Sources */,
+				3B90939D1D057D2E006549A2 /* TopScrollView.m in Sources */,
 				3B2DE3581D014A19006DCD98 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				3B2DE36C1D014A19006DCD98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

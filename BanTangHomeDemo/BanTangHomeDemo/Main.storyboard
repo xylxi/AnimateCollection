@@ -20,31 +20,18 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iii-Iu-8JC">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhd-r0-Q2N">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
-                                <color key="backgroundColor" red="0.070588235289999995" green="0.71764705880000002" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="lJS-jS-66i"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Iii-Iu-8JC" secondAttribute="bottom" id="0Tu-6E-EMR"/>
-                            <constraint firstItem="nhd-r0-Q2N" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1C6-3b-fHA"/>
                             <constraint firstAttribute="trailing" secondItem="Iii-Iu-8JC" secondAttribute="trailing" id="FGG-8w-FIZ"/>
-                            <constraint firstItem="nhd-r0-Q2N" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RkN-YK-pG2"/>
                             <constraint firstItem="Iii-Iu-8JC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dT7-4q-T3j"/>
-                            <constraint firstAttribute="trailing" secondItem="nhd-r0-Q2N" secondAttribute="trailing" id="eXw-Ik-Z3m"/>
                             <constraint firstItem="Iii-Iu-8JC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kV8-yg-pVj"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="cView" destination="8bC-Xf-vdC" id="Icm-L3-DK6"/>
                         <outlet property="scrollView" destination="Iii-Iu-8JC" id="JVO-pJ-qjf"/>
-                        <outlet property="topHeigth" destination="lJS-jS-66i" id="3SN-ce-hxW"/>
-                        <outlet property="topSpace" destination="RkN-YK-pG2" id="7m2-Ug-w0D"/>
-                        <outlet property="topView" destination="nhd-r0-Q2N" id="YFx-MQ-Ocs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

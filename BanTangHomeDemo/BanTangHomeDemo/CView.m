@@ -12,14 +12,16 @@
 
 // 改变响应者
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    CGPoint topPoint = [self convertPoint:point toView:self.topView];
-    if ([self.topView pointInside:topPoint withEvent:event]) {
-        NSInteger tag = self.scrollView.contentOffset.x / ([UIScreen mainScreen].bounds.size.width);
-        UIView *v = self.arr[tag];
-        return v;
-    }
-    return [super hitTest:point withEvent:event];
+//    CGPoint topPoint = [self convertPoint:point toView:self.topView];
+//    if ([self.topView pointInside:topPoint withEvent:event]) {
+//        NSInteger tag = self.scrollView.contentOffset.x / ([UIScreen mainScreen].bounds.size.width);
+//        UIView *v = self.arr[tag];
+//        return v;
+//    }
+    UIView *v = [super hitTest:point withEvent:event];
+    return v;
 }
+
 
 
 @end
