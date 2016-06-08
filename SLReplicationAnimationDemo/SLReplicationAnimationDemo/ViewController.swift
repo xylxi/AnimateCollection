@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         circle.backgroundColor = UIColor.whiteColor().CGColor
         replicatorLayer.addSublayer(circle)
         
-        // 注意，赋值的layer，选择是围绕的CAReplicatorLayer的锚点旋转的
+        // 注意，赋值的layer，旋转是围绕的CAReplicatorLayer的锚点旋转的
         replicatorLayer.instanceCount = 15
         let angle = CGFloat(2 * M_PI) / CGFloat(15)
         replicatorLayer.instanceTransform = CATransform3DMakeRotation(angle, 0, 0, 1)
