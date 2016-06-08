@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SLReplicationAnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhe-mQ-llb">
+                                <rect key="frame" x="85" y="99" width="150" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xhe-mQ-llb" secondAttribute="height" multiplier="1:1" id="4Vq-55-uj1"/>
+                                    <constraint firstAttribute="width" constant="150" id="oxU-sS-TkO"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBh-6R-kta">
+                                <rect key="frame" x="85" y="318" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.96470588239999999" green="0.34509803919999998" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PBh-6R-kta" secondAttribute="height" multiplier="1:1" id="3Iy-zO-QfP"/>
+                                    <constraint firstAttribute="width" constant="150" id="OuV-8i-TYy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34509803919999998" green="0.80000000000000004" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="PBh-6R-kta" firstAttribute="top" secondItem="xhe-mQ-llb" secondAttribute="bottom" constant="69" id="EJy-pU-D2U"/>
+                            <constraint firstItem="xhe-mQ-llb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="79" id="HOv-fi-L2g"/>
+                            <constraint firstItem="xhe-mQ-llb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tr3-84-NdL"/>
+                            <constraint firstItem="PBh-6R-kta" firstAttribute="leading" secondItem="xhe-mQ-llb" secondAttribute="trailing" constant="-150" id="tbh-76-MNE"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="replicationView" destination="xhe-mQ-llb" id="CBz-zf-OqS"/>
+                        <outlet property="secondView" destination="PBh-6R-kta" id="QfG-He-yDA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
