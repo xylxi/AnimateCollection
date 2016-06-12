@@ -62,7 +62,7 @@ class SLContainerViewController: UIViewController {
         
         switch recognizer.state {
         case .Began:
-            // 缓存图层
+            // 缓存image，防止抗锯齿效果
             menuViewController.view.layer.shouldRasterize = true
             menuViewController.view.layer.rasterizationScale =
                 UIScreen.mainScreen().scale
